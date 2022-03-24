@@ -6,7 +6,7 @@ def divisibleby7(x):
     else:
         return False
 
-class divisible7(unittest.TestCase):
+class Divisible7(unittest.TestCase):
     def test_divisib7(self):
         x=14
         result=divisibleby7(x)

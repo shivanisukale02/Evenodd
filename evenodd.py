@@ -17,5 +17,7 @@ class Myapp1(unittest.TestCase):
         result=check(a)
         self.assertEqual("odd",result)
 
+
+
 if __name__=="__main__":
     unittest.main()
